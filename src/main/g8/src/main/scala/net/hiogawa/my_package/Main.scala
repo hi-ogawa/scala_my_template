@@ -1,7 +1,9 @@
-package my_package
+package net.hiogawa.my_package
 
 object Main {
   def main(args: Array[String]) : Unit = {
-    println("Let's create my package!")
+    println(testString)
   }
+
+  def testString : String = "Let's create my package!"
 }
